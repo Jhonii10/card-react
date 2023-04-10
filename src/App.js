@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 // import Contador from './components/Contador';
-import Card from './components/Cards';
+import Cards from './components/Card';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" />
         <Contador inicial={0} factor={2}></Contador> */}
-        <Card></Card>
+        <Cards></Cards>
       </header>
     </div>
   );
